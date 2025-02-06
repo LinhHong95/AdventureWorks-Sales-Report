@@ -20,4 +20,13 @@ This project focuses on upgrading the sales report from static to interactive vi
 ## Data source
 The AdventureWorks dataset is a publicly available business database in BigQuery, simulating sales transactions for an international bicycle and outdoor equipment company. It includes data on sales, products, customers, employees, and territories, making it ideal for sales performance analysis.
 
-Source: Google BigQuery AdventureWorks Dataset (
+Source: Google BigQuery AdventureWorks Dataset (https://console.cloud.google.com/welcome?q=search&referrer=search&project=adventureworks2019&inv=1&invt=Abo1bw)
+## Workflow
+### 1. Data Preparation
+This stage involves identifying key tables, selecting relevant columns, and structuring data for seamless analysis.
+
+### 2. Data Processing
+### 3. Data Analysis
+### 4. Data Visualisation
+### 5. Insights and Recommendations
+## Summary
