@@ -6,3 +6,18 @@ This project focuses on upgrading the sales report from static to interactive vi
 - The enhanced report will display total sales, product performance, customer purchases, and sales trends over time.
 - It will also include filtering options for salespeople, products, and customers to enable deeper analysis and better decision-making.
 ## User Empathy
+<img width="771" alt="Image" src="https://github.com/user-attachments/assets/566560d7-02a4-4713-9746-793ac9974887" />
+
+## Tools and Techniques
+- BigQuery
+    - Data Preparation
+    - Data Processing
+- Power BI
+    - Data Connection
+    - Data Transformation
+    - Data Modelling
+    - Data Visualisation
+## Data source
+The AdventureWorks dataset is a publicly available business database in BigQuery, simulating sales transactions for an international bicycle and outdoor equipment company. It includes data on sales, products, customers, employees, and territories, making it ideal for sales performance analysis.
+
+Source: Google BigQuery AdventureWorks Dataset (
