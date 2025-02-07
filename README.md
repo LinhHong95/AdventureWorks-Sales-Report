@@ -6,11 +6,6 @@
 - [Tools and Techniques](#tools-and-techniques)
 - [Data Description](#data-description)
 - [Workflow](#workflow)
-  - [Data Preparation](#data-preparation)
-  - [Data Processing](#data-processing)
-  - [Data Analysis](#data-analysis)
-  - [Data Visualisation](#data-visualisation)
-  - [Insights and Recommendations](#insights-and-recommendations)
 - [Summary](#summary)
 ## Introduction
 This project aims to improve sales reporting by delivering an interactive dashboard with dynamic filters, enabling stakeholders to easily explore sales insights and make data-driven decisions. Key performance indicators (KPIs) will be developed to analyze sales trends, product performance, and customer purchases. Actionable insights and recommendations will be provided to support the growth and success of the sales team.
