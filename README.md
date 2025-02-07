@@ -28,7 +28,7 @@ This stage involves identifying key tables, selecting relevant columns, and stru
 
 ### 2. Data Processing
 #### 2.1. Extracting data with BigQuery
-I queried relevant data, performed initial cleaning such as date formatting, text join.
+I queried relevant data and performed initial cleaning such as date formatting and text joins.
 - Fact_SalesOrderHeader Table
 <img width="867" alt="Image" src="https://github.com/user-attachments/assets/6735c6a7-e206-4aa1-9681-590f9fb5fda3" />
 
@@ -58,12 +58,12 @@ Processed data is saved as CSV files and directly imported to Power BI.
 ### 3. Data Analysis
 I established calculated columns and measures for KPIs based on the key formula:
 - Sales performance:
-  Total Sales = Number of Order x Average Order Value (AOV)
+  Total Sales = Number of Orders x Average Order Value (AOV)
 - Product performance:
   Total Sales = Average Price per Unit x Unit Sold
 - Customer purchase:
   Total Sales = Revenue per Customer x Number of Customers
-Sales Trends Over Time is explored by multidimension namely overall performance, product efficiency and customer spending. 
+Sales Trends Over Time are explored by multidimensions namely overall performance, product efficiency and customer spending. 
 
 ### 4. Data Visualisation
 <img width="1024" alt="Image" src="https://github.com/user-attachments/assets/491ec4df-caa2-458f-ab39-31fe682ccda2" />
@@ -71,6 +71,24 @@ Sales Trends Over Time is explored by multidimension namely overall performance,
 <img width="1024" alt="Image" src="https://github.com/user-attachments/assets/94d90ce4-2de5-41ac-8eec-7b54f9108fbc" />
 
 ### 5. Insights and Recommendations
+#### 5.1. Pricing and Revenue Trends
+- Sales peaked annually from March to October, suggesting a seasonal demand pattern. The Sales Team should launch targeted promotions and new product releases ahead of peak season to maximise revenue.
+- Australia's sales revenue almost doubled (+99%), from $2.12M to $4.23M from 2012 to 2013. This significant increase placed Australia as the 4th highest revenue-generating country. With this remarkable growth, Australia presents a highly promising market for further expansion.
+- The average price per unit declined significantly by 73.5% (from $1,259 in 2012 to $333 in 2014), primarily due to price reductions in the Bike and Components category. The decline in revenue despite steady unit sales suggests price sensitivity in the market. Lower margins on high-revenue products indicate a need for strategic pricing adjustments.
+#### 5.3. Product Performance
+- Accessories sales surged 459% (from 5,750 to 32,153 units), and Clothing sales increased 93% (from 19,228 to 37,180 units) from 2012 to 2013, demonstrating shifting consumer preferences. In 2014, Accessories revenue surpassed Clothing and Components, becoming the second-highest revenue-generating category.
+- This shift reflects a growing consumer preference for add-on purchases, presenting a strategic opportunity to position Accessories as a market penetration product. Their broad appeal, affordability, and upselling potential make them an effective driver for expanding the customer base and increasing overall sales. The Sales Team should introduce bundled promotions, upsell with bike purchases, introduce premium and budget-friendly accessories to cater to diverse customer segments and optimise distribution channels to maximise accessibility.
+- The bike category remained the highest revenue contributor, but notable shifts in consumer preferences emerged. Road bikes and touring bikes experienced a decline in unit sales from 2012 to 2013, while mountain bikes saw a significant increase in demand, driving overall category growth. This upward trend in mountain bike sales persisted despite a decrease in the average price across all bike products, suggesting that volume growth offset price reductions. The Sales team should prioritise Mountain Bike Marketing, investigate declining sales in road and touring bikes to identify potential causes.
+#### 5.2. Customer Trends
+- The customer base grew 262% (from 3,915 to 14,182), but spending per customer declined 64% (from $8,563 to $3,076) from 2012 to 2013. This trend was expected to continue in 2014, indicating a shift toward lower-value purchases.
+- While attracting new customers has been successful, lower spending per customer suggests a need for improved customer retention and upselling strategies. Loyalty programs, personalized product recommendations, and bundled discounts should be implemented to encourage higher spending among existing customers.
 
 ## Summary
-This project enhances sales reporting with KPIs of Sales trend, Product performance and Customer Purchase. Using an interative dashboard with dynamic filters for salespeople, products, time and location allows a faster and deeper analysis of sales KPIs. 
+In this project, I enhanced sales reporting by developing key performance indicators (KPIs) to analyze sales trends, product performance, and customer purchases. I leveraged BigQuery for data extraction and processing, then imported and transformed the data in Power BI, where I established relationships between tables and created calculated measures for deeper analysis. Finally, I designed an interactive dashboard with dynamic filters for salespeople, products, time, and location, enabling stakeholders to explore sales insights more efficiently and make data-driven decisions.
+
+
+
+
+
+
+
